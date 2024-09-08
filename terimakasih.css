@@ -1,0 +1,16 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 20px;
+  background-color: #faebd7;
+  text-align: center;
+}
+
+.terimakasih {
+  font-size: 40px;
+  font-style: oblique;
+}
+
+table {
+  margin-top: 17.5%;
+  margin-bottom: auto;
+}

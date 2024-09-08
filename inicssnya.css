@@ -1,0 +1,48 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 20px;
+  background-color: #faebd7;
+}
+
+form {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.judul {
+  color: #ff650c73;
+  font-size: 2rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.outside {
+  text-align: center;
+  font-size: larger;
+}
+
+.button {
+  background-color: #ff4437;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+.buttondua {
+  background-color: #7deb51;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}

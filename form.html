@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Base</title>
+  </head>
+  <link rel="stylesheet" href="inicssnya.css" />
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,400&display=swap"
+    rel="stylesheet"
+  />
+
+  <body>
+    <p class="judul"><b>Personal Info</b></p>
+    <p class="outside" style="text-align: center;">
+      Info about you and your preferences across our services.
+    </p>
+
+    <!-- Log In Akun -->
+    <form action="#"">
+      <fieldset style="width: 20rem">
+        <legend><b>Akun</b></legend>
+        <table>
+          <tr>
+            <td>
+              <label for="username">Username:</label>
+            </td>
+            <td>
+              <input type="text" id="username" name="username" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="password">Password:</label></td>
+            <td><input type="password" id="password" name="password" /></td>
+          </tr>
+        </table>
+      </fieldset>
+      <br />
+
+      <!-- Data diri -->
+      <fieldset style="width: 20rem">
+        <legend><b>Data Diri</b></legend>
+        <table>
+          <tr>
+            <td><label for="namalengkap">Nama Lengkap:</label></td>
+            <td><input type="text" id="namalengkap" name="namalengkap" /></td>
+          </tr>
+          <tr>
+            <td><label for="jeniskel">Jenis Kelamin:</label></td>
+            <td>
+              <input type="radio" id="lakilaki" name="jeniskel" />Laki-laki
+              <br />
+              <input type="radio" id="perempuan" name="jeniskel" />Perempuan
+            </td>
+          </tr>
+          <tr>
+            <td><label for="tgllahir">Tanggal Lahir:</label></td>
+            <td><input type="date" id="tgllahir" name="tgllahir" /></td>
+          </tr>
+          <tr>
+            <td>
+              <label for="telp">No. Telp: <b>+62</b> </label>
+            </td>
+            <td><input type="number" value="#" /></td>
+          </tr>
+          <tr>
+            <td><label for="alamat">Alamat:</label></td>
+            <td><textarea name="alamat" id="alamat"></textarea></td>
+          </tr>
+        </table>
+      </fieldset>
+      <br />
+
+      <!-- education -->
+      <fieldset style="width: 20rem">
+        <legend><b>Education & Hobby</b></legend>
+        <table>
+          <tr>
+            <td>
+              <label for="pendidikan"
+                >Pendidikan Terakhir/ <br />Sedang Ditempuh:</label
+              >
+            </td>
+            <td>
+              <input type="radio" value="S1" name="sekolah" />Sarjana <br />
+              <input type="radio" value="SMA/SMK" name="sekolah" />SMA/SMK
+              <br />
+              <input type="radio" value="SD" name="sekolah" />SD <br />
+              <input type="radio" value="TK" name="sekolah" />TK
+
+            </td>
+          </tr>
+         
+          <tr>
+            <td><label for="hobby">Hobby:</label></td>
+            <td>
+              <input type="checkbox" id="hobby" />Musik <br />
+              <input type="checkbox" id="hobby" />Berolahraga <br />
+              <input type="checkbox" id="hobby" />Menggambar <br />
+              <input type="checkbox" id="hobby" />Berkebun <br />
+              <input type="checkbox" id="hobby" />Memasak <br />
+              <input type="checkbox" id="hobby" /><label for="lain"
+                >Lainnya:</label
+              ><input type="text" id="lain" />
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+
+    <!-- Isian dibawah -->
+     <p class="outside">Apakah anda sudah yakin dengan jawaban anda?</p>
+
+     <table align="center">
+      <tr>
+        <td><a href="#"><button class="button">Cek Ulang</button></a></td>
+        <td><a href="terimakasih.html"><button class="buttondua">Submit</button></a></td>
+      </tr>
+     </table>
+  </body>
+</html>
